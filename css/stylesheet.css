@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('font/Open_Sans/css/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('font/Open_Sans/css/opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('font/Raleway/css/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('font/Raleway/css/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
