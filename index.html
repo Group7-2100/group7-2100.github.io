@@ -508,6 +508,17 @@
                   <div class="form-group">
                     <label for="appointment_time" class="text-black">Time</label>
                     <input type="text" class="form-control" id="appointment_time">
+                    $('.timepicker').timepicker({
+                    timeFormat: 'h:mm p',
+                    interval: 60,
+                    minTime: '10',
+                    maxTime: '6:00pm',
+                    defaultTime: '11',
+                    startTime: '10:00',
+                    dynamic: false,
+                    dropdown: true,
+                    scrollbar: true
+                   });
                   </div>
                 </div>
               </div>
